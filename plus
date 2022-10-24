@@ -1,0 +1,16 @@
+#!/usr/bin/python3
+# SPDX-FileCopyrightText: 2022 Miyawaki Kaito
+# SPDX-License-Identifier: BSD-3-Clause
+
+import sys
+
+ans = 0 #もともと0.0だったのを0に変更
+for line in sys.stdin:
+    try:
+        ans += int(line) #intは文字列を整数に
+    except:
+        ans += float(line)
+
+print(ans)
+
+
