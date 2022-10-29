@@ -3,6 +3,7 @@ use in robotic systems
 
 # plusコマンド
 ![test](https://github.com/MiyawakiKaito/robosys2022/actions/workflows/test.yml/badge.svg)
+
 ↑ テスト結果を反映したバッジの画像が埋め込まれる。（ryuichiueda等は各自変更を。）
 
 標準入力から読み込んだ数字を足す。
@@ -16,7 +17,8 @@ use in robotic systems
 ## テスト環境
 * Ubuntu
 
-* このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます．
-* © 2022 Miyawaki Kaito
+
+ このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます．
+ © 2022 Miyawaki Kaito
 
    
