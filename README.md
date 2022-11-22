@@ -1,18 +1,26 @@
 # robosys2022
-use in robotic systems
+『ロボットシステム学』で使用しているリポジトリ
 
-# plusコマンド
 ![test](https://github.com/MiyawakiKaito/robosys2022/actions/workflows/test.yml/badge.svg)
 
+##ダウンロード方法
+* http
+```
+https://github.com/MiyawakiKaito/robosys2022.git
+```
+* ssh
+```
+git@github.com:MiyawakiKaito/robosys2022.git
+```
+
+## plusコマンド
 標準入力から読み込んだ数字を足す。
-（ここに前ページの項目をいろいろ書く）
 
-## 必要なソフトウェア
+## 必要なソフトウェア・動作確認
 * Python
-  * テスト済み: 3.7〜3.10
-
-## テスト環境
+  * Python3(3.7〜3,10)で動作確認済み
 * Ubuntu
+  * Ubuntu20.04で動作確認済み
 
 ## 権利関係・謝辞
 * 著作権、ライセンス
