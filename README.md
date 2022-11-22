@@ -18,7 +18,7 @@ git@github.com:MiyawakiKaito/robosys2022.git
 
 ## 必要なソフトウェア・動作確認
 * Python
-  * Python3(3.7〜3,10)で動作確認済み
+  * Python3(3.7〜3.10)で動作確認済み
 * Ubuntu
   * Ubuntu20.04で動作確認済み
 
