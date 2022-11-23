@@ -11,9 +11,13 @@ res=0
 
 ### I/O TEST ### #整合性テスト
 
-### I/O ###
+### plus(add) I/O ###
 out=$(seq 5 | ./plus)
 [ "${out}" = 15 ] || ng ${LINENO}
+
+### multiply I/O ###
+out=$(seq 5 | ./plus)
+[ "${out}" = 120 ] || ng ${LINENO}
 
 ### STRANGE INPUT ###
 out=$(echo あ | ./plus)
