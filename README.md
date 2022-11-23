@@ -23,14 +23,14 @@ git@github.com:MiyawakiKaito/robosys2022.git
 
 * 動作確認の例
 ```
-seq <数字> | ./plus
+seq 数 | ./plus
 ```
 ## multiplyコマンド
 標準入力から読み込んだ数字をかける
 
 * 動作確認の例
 ```
-seq <数字> | ./multiply
+seq 数 | ./multiply
 ```
 
 # 必要なソフトウェア・動作確認
