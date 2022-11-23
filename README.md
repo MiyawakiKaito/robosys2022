@@ -3,6 +3,8 @@
 
 ![test](https://github.com/MiyawakiKaito/robosys2022/actions/workflows/test.yml/badge.svg)
 
+---
+
 # ダウンロード方法
 * http
 ```
@@ -11,13 +13,10 @@ https://github.com/MiyawakiKaito/robosys2022.git
 ---
 
 # コマンド
-標準入力から読み込んだ数字を扱う
 
-今回の動作確認で使用するコマンド
-
+動作確認のときに使用するコマンド
 * seq 数 
   * 1から指定した数までを連続して出力する
-
 
 ## plusコマンド
 標準入力から読み込んだ数字を足し、算出された値を出力する
