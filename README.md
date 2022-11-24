@@ -1,5 +1,5 @@
-# robosys2022
-『ロボットシステム学』で使用しているリポジトリ
+# 数値計算
+
 
 ![test](https://github.com/MiyawakiKaito/robosys2022/actions/workflows/test.yml/badge.svg)
 
@@ -9,15 +9,19 @@
 
 * http
 
-* git cloneを行う
-
 ```
 $ git clone https://github.com/MiyawakiKaito/robosys2022.git
+$ cd robosys2022/
+
 ```
+
 
 ---
 
 # コマンド
+
+これらのコマンドは「robosys2022」のディレクトリで実行が可能です
+
 
 動作確認のときに使用するコマンド
 * seq 数 
@@ -57,7 +61,7 @@ $ seq 5 | ./multiply
 
 ---
 
-# 著作権・ライセンス
+# ライセンス
   * このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます．
 * このパッケージのコードは，下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを，本人の許可を得て自身の著作としたものです．
   * [ryuichiueda/my_slides robosys_2022](https://github.com/ryuichiueda/my_slides/tree/master/robosys_2022)
