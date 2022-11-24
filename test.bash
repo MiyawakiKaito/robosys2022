@@ -19,6 +19,10 @@ out=$(seq 5 | ./plus)
 out=$(seq 5 | ./multiply)
 [ "${out}" = 120 ] || ng ${LINENO}
 
+### divisor I/O ###
+out=$(echo 10 | ./multiply)
+[ "${out}" = 1 2 5 10 ] || ng ${LINENO}
+
 ### plus(add) STRANGE INPUT ###
 out=$(echo あ | ./plus)
 [ "$?" = 1 ]          || ng ${LINENO}
@@ -37,6 +41,14 @@ out=$(echo  | ./multiply)
 [ "$?" = 1 ]          || ng ${LINENO}
 [ "${out}" = "" ]     || ng ${LINENO}
 
+### divisor STRANGE INPUT ###
+out=$(echo あ | ./multiply)
+[ "$?" = 1 ]          || ng ${LINENO}
+[ "${out}" = "" ]     || ng ${LINENO}
+
+out=$(echo  | ./multiply)
+[ "$?" = 1 ]          || ng ${LINENO}
+[ "${out}" = "" ]     || ng ${LINENO}
 
 [ "$res" = 0 ] && echo OK
 exit $res
