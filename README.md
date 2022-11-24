@@ -11,10 +11,11 @@
 
 # ダウンロード方法
 
+* 操作 
 
 ```
 $ git clone https://github.com/MiyawakiKaito/robosys2022.git
-$ cd robosys2022/
+
 ```
 
 
@@ -22,8 +23,11 @@ $ cd robosys2022/
 
 # コマンド
 
-これらのコマンドは「robosys2022」のディレクトリで実行が可能です
+これらのコマンドを実行するには「robosys2022」というディレクトリへ移動する必要があります
 
+```
+$ cd robosys2022
+```
 
 動作確認のときに使用するコマンド
 * seq 数 
