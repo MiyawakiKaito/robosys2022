@@ -11,7 +11,6 @@
 
 # ダウンロード方法
 
-* http
 
 ```
 $ git clone https://github.com/MiyawakiKaito/robosys2022.git
