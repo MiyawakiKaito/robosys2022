@@ -22,7 +22,7 @@ $ git clone https://github.com/MiyawakiKaito/robosys2022.git
 
 # コマンド
 
-### これらのコマンドを実行するには「robosys2022」というディレクトリへ移動する必要があります
+これらのコマンドを実行するには「robosys2022」というディレクトリへ移動する必要があります
 
 ```
 $ cd robosys2022
