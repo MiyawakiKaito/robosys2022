@@ -21,7 +21,7 @@ out=$(seq 5 | ./multiply)
 
 ### divisor I/O ###
 out=$(seq 5 | ./divisor)
-[ "${out}" = 1 ] || ng ${LINENO}
+[ "${out}" = 1" " ] || ng ${LINENO}
 
 ### plus(add) STRANGE INPUT ###
 out=$(echo あ | ./plus)
