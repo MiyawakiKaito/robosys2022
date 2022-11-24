@@ -1,5 +1,9 @@
 # 数値計算
 
+可能な計算
+  * 足し算 
+  * 掛け算
+  * 約数
 
 ![test](https://github.com/MiyawakiKaito/robosys2022/actions/workflows/test.yml/badge.svg)
 
@@ -12,7 +16,6 @@
 ```
 $ git clone https://github.com/MiyawakiKaito/robosys2022.git
 $ cd robosys2022/
-
 ```
 
 
