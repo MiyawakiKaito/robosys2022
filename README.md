@@ -9,14 +9,6 @@
 
 * http
 
-### GitHub内での手順
-
-* 「code」から「HTTPS」のリンクをコピーする
-
-![コピーはこちらから](https://user-images.githubusercontent.com/83056429/204412705-2dcafebe-63e0-48ac-9d43-55e73178db2c.png)
-
-### Ubuntu上での手順
-
 * git cloneを行う
 
 ```
@@ -36,7 +28,7 @@ $ git clone https://github.com/MiyawakiKaito/robosys2022.git
 
 * 動作確認の例
 ```
-seq 5 | ./plus
+$ seq 5 | ./plus
 ```
 実行結果
 ```
@@ -48,7 +40,7 @@ seq 5 | ./plus
 
 * 動作確認の例
 ```
-seq 5 | ./multiply
+$ seq 5 | ./multiply
 ```
 実行結果
 ```
