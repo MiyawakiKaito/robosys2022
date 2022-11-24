@@ -9,8 +9,15 @@
 
 * http
 
+GitHub内での手順
+
+* 「code」から「HTTPS」のリンクをコピーする
 ![コピーはこちらから](https://user-images.githubusercontent.com/83056429/204412705-2dcafebe-63e0-48ac-9d43-55e73178db2c.png)
-``
+
+Ubuntu上での手順
+```
+$ git clone https://github.com/MiyawakiKaito/robosys2022.git
+```
 
 ---
 
