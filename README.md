@@ -1,6 +1,6 @@
 # 数値計算
 
-可能な計算
+### 可能な計算
   * 足し算 
   * 掛け算
   * 約数
@@ -15,7 +15,6 @@
 
 ```
 $ git clone https://github.com/MiyawakiKaito/robosys2022.git
-
 ```
 
 
@@ -23,7 +22,7 @@ $ git clone https://github.com/MiyawakiKaito/robosys2022.git
 
 # コマンド
 
-これらのコマンドを実行するには「robosys2022」というディレクトリへ移動する必要があります
+### これらのコマンドを実行するには「robosys2022」というディレクトリへ移動する必要があります
 
 ```
 $ cd robosys2022
