@@ -20,8 +20,8 @@ out=$(seq 5 | ./multiply)
 [ "${out}" = 120 ] || ng ${LINENO}
 
 ### divisor I/O ###
-out=$(seq 5 | ./divisor)
-[ "${out}" = 1" " ] || ng ${LINENO}
+out=$(echo 10 | ./divisor)
+[ "${out}" = 1" "2" "5" "10" " ] || ng ${LINENO}
 
 ### plus(add) STRANGE INPUT ###
 out=$(echo あ | ./plus)
